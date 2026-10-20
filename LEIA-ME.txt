@@ -1,0 +1,23 @@
+FINANÇAS NA PRÁTICA — VERSÃO PARA VERCEL
+
+Arquivos:
+- worker.js: código original do site.
+- api/index.js: adaptador para executar o site na Vercel.
+- vercel.json: direciona as URLs para a função.
+- package.json: configura JavaScript como ES Modules.
+
+COMO PUBLICAR
+1. Extraia este ZIP.
+2. Envie todos os arquivos e a pasta api para um repositório GitHub.
+3. Acesse https://vercel.com/ e conecte a conta ao GitHub.
+4. Importe o repositório na Vercel.
+5. Use as configurações padrão, sem comando de build.
+6. Clique em Deploy e teste a página inicial, os artigos e as páginas
+   /sobre, /contato, /privacidade, /termos, /cookies, /editorial,
+   /robots.txt e /sitemap.xml.
+
+IMPORTANTE
+- A publicação não apaga o site atual da Cloudflare.
+- O endereço Vercel será diferente do endereço atual.
+- Teste todas as páginas antes de considerar a migração concluída.
+- As imagens de fundo vêm do Unsplash e dependem da disponibilidade externa.
